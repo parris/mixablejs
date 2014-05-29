@@ -5,7 +5,8 @@
   "main": "mixable.js",
   "scripts": {
     "test": "mocha src/*.spec.*",
-    "debug-test": "mocha debug src/*.spec.*"
+    "debug-test": "mocha debug src/*.spec.*",
+    "build": "coffee -o ./  -c src/mixable.coffee"
   },
   "repository": {
     "type": "git",
